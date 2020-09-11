@@ -1,4 +1,4 @@
-##GitHub+jsDelivr+FFmpeg打造切片视频床
+GitHub+jsDelivr+FFmpeg打造切片视频床
 
 #### 准备工作：
 
@@ -32,7 +32,7 @@
    如：ffmpeg -i out.ts -c copy -map 0 -f segment -segment_list out.m3u8 -segment_time 5 %03d.ts
    ```
 
-4. 将得到的所有***.ts文件+生成的xxx.m3u8**文件一起上传到GitHub仓库的同一个文件目录下
+4. 将得到的所有*.ts文件+生成的xxx.m3u8文件一起上传到GitHub仓库的同一个文件目录下
 
 5. 加上jsDelivr加速后的网址，即获得在线m3u8播放器可以播放的视频网址
 
